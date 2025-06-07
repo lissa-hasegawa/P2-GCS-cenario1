@@ -37,12 +37,12 @@ nav a:hover {
 .intro {
     padding: 40px 20px 20px 20px;
     text-align: center;
-    background: #d3c8b4;
+    background:  #D3A29D;
 }
 
 .intro h2 {
     margin-top: 0;
-    color: #703e3b;
+    color: #920d2c;
 }
 
 .produtos {
@@ -53,7 +53,7 @@ nav a:hover {
 
 .produtos h3 {
     text-align: center;
-    color: #703e3b;
+    color: #eeaeaf;
 }
 
 .grid {
@@ -91,7 +91,7 @@ nav a:hover {
 
 footer {
     background: #E7E3DD;
-    color: #333;
+    color: #920d2c;
     text-align: center;
     padding: 15px 0;
     margin-top: 40px;
