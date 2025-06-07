@@ -1,13 +1,15 @@
+@import url(colors.css);
+
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
-    background: #f6f6f6;
-    color: #333;
+    background: var(--cor-fundo-body);
+    color: var(--cor-texto);
 }
 
 header {
-    background: #E7E3DD;
-    color: #fff;
+    background: var(--cor-footer-bg);
+    color: var(--cor-card-bg);
     padding: 20px 0;
     text-align: center;
 }
@@ -23,7 +25,7 @@ nav {
 }
 
 nav a {
-    color: #333;
+    color: var(--cor-texto);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -31,18 +33,18 @@ nav a {
 }
 
 nav a:hover {
-    color: #620725;
+    color: var(--cor-link-hover);
 }
 
 .intro {
     padding: 40px 20px 20px 20px;
     text-align: center;
-    background:  #D3A29D;
+    background: var(--cor-intro-bg);
 }
 
 .intro h2 {
     margin-top: 0;
-    color: #920d2c;
+    color: var(--cor-intro-titulo);
 }
 
 .produtos {
@@ -53,7 +55,7 @@ nav a:hover {
 
 .produtos h3 {
     text-align: center;
-    color: #eeaeaf;
+    color: var(--cor-produtos-titulo);
 }
 
 .grid {
@@ -65,9 +67,9 @@ nav a:hover {
 }
 
 .produto {
-    background: #fff;
+    background: var(--cor-header-texto);
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.08);
+    box-shadow: 0 2px 8px var(--cor-card-shadow);
     padding: 20px;
     width: 220px;
     text-align: center;
@@ -75,7 +77,7 @@ nav a:hover {
 }
 
 .produto:hover {
-    box-shadow: 0 4px 16px rgba(46, 125, 50, 0.16);
+    box-shadow: 0 4px 16px var(--cor-card-hover-shadow);
 }
 
 .produto img {
@@ -86,12 +88,12 @@ nav a:hover {
 
 .produto h4 {
     margin: 10px 0 5px 0;
-    color: #703e3b;
+    color: var(--cor-card-titulo);
 }
 
 footer {
-    background: #E7E3DD;
-    color: #920d2c;
+    background: var(--cor-footer-bg);
+    color: var(--cor-footer-texto);
     text-align: center;
     padding: 15px 0;
     margin-top: 40px;
